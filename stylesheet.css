@@ -1,0 +1,59 @@
+body{
+	background-color: rgba(201, 228, 223, 1.0);
+	color:rgba(77, 99, 97, 1.0);
+	font-family: Yu Gothic UI;
+	font-size: 1em;
+	text-align: justify;
+}
+
+main{
+	margin: 30px;
+}
+
+h1{
+	color: rgba(26, 98, 174, 1.0);
+	font-size: 1.5em;
+	text-align: left;
+	margin: 0px;
+}
+
+.btn-outline-secondary{
+	background-color: rgba(201, 228, 223, 1.0);
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow:4px 4px 5px #888888;
+	-webkit-nox-shadow:4px 4px 5px #888888;
+	-o-box-shadow:4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+.card{
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow:4px 4px 5px #888888;
+	-webkit-nox-shadow:4px 4px 5px #888888;
+	-o-box-shadow:4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+.card-img-top{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 40rem;
+	margin: 0px;
+}
+
+.card-img-overlay{
+	color:rgba(77, 99, 97, 1.0);
+	font-family: Yu Gothic UI;
+	font-size: 1em;
+	text-align: center;
+}
+
+footer{
+	background-color: rgba(255, 255, 255, 1.0);
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}

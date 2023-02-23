@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8">
+	<title>Proyecto Desarrollo Web</title>
+</head>
+
+<body>
+	<header>
+	<img src="Logo Proyecto Desarrollo Web.jpg" label="Logo Proyecto Desarrollo Web"/>
+		<h1>Proyecto Desarrollo Web</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Principal</a></li>
+				<li><a href="#">Servicios</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h2>Contacto</h2>
+	<p>Nuestros profesionales se contactarán contigo a la brevedad.</p>
+
+	<form>
+	<fieldset> 
+	<legend>Información de Contacto</legend>
+		<p>
+			<label for="name">Nombre</label>
+				<input type="text" name="name" id="name"
+				placeholder="María Elena"
+				autocomplete
+				required />
+		</p>
+		
+		<p>
+			<label for="name">Apellido</label>
+				<input type="text" name="name" id="name"
+				placeholder="Walsh"
+				autocomplete
+				required />
+		</p>
+		
+		<p>
+			<label for="email">Email</label>
+				<input type="email" name="email" id="email"
+				placeholder="mariaewalsh@gmail.com"
+				autocomplete
+				required />
+		</p>
+		
+		<p>
+			<label for="tel">Teléfono móvil</label>
+				<input type="tel" name="tel" pattern="(+[0-9]{2}[0-9]{9}" 
+				placeholder="+34699999999"
+				autocomplete
+				required />
+		</p>
+		
+		<p>Medio de contacto de preferencia</p>
+		<label for="medio de contacto">Email</label>
+		<input type="radio" name="medio de contacto" value="Email"/>
+		<label for="medio de contacto">Teléfono</label>
+		<input type="radio" name="medio de contacto" value="Teléfono"/>
+		
+		<input type="submit"/>
+		
+	</fieldset>
+	</form>
+	</main>
+	
+	<footer>
+		<p>Proyecto Desarrollo Web - 43003 Tarragona, España 2023</p>
+	</footer>
+	
+</body>
+
+</html>
