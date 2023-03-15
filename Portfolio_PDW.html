@@ -2,37 +2,174 @@
 
 <html lang="es">
 <head>
-<meta charset="utf-8">
-	<title>Proyecto Desarrollo Web</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="Logo_Para_el_Navegador_web.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio PDW</title>
+	<link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
 <body>
 	<header>
-	<img src="Logo Proyecto Desarrollo Web.jpg" label="Logo Proyecto Desarrollo Web"/>
-		<h1>Proyecto Desarrollo Web</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Principal</a></li>
-				<li><a href="#">Servicios</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		    <div class="container-fluid">
+		      <a class="navbar-brand" href="#"><img src="Logo Para el Navegador web.jpg" alt="Bootstrap" width="45" height="45"></a>
+		      <h1>PROYECTO DESARROLLO WEB</h1>
+		      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		      </button>
+		      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		        <div class="mx-auto">
+		          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		            <li class="nav-item">
+		              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link" href="Servicios_PDW.html">Servicios</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link" href="Portfolio_PDW.html">Portfolio</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link" href="Contacto_PDW.html">Contacto</a>
+		            </li>
+		          </ul>
+		        </div>
+		        <form class="d-flex" role="search">
+		          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		          <button class="btn btn-outline-secondary" type="submit">Search</button>
+		        </form>
+		      </div>
+		    </div>
 		</nav>
 	</header>
 
 	<main>
-	
-		<h2>Portfolio</h2>
-		
-		<p>En PDW nos especializamos en Diseño de páginas web. Nuestros expertos poseen la experiencia necesaria para diseñar una página web que se adapte a tus necesidades. En PDW sabemos que es muy importante focalizarse en la experiencia de tus futuros clientes, pensando en ellos desde el día cero. En esta sección podrás visualizar algunos de nuestros trabajos.</p>
 
+        <div class="card mb-3">
+  			<img src="imagen card top.jpg" class="card-img-top2 w-100" alt="imagen asbtracta azul">
+  			<div class="card-body">
+    			<h2 class="card-title1">Portfolio</h2>
+    			<p class="card-text1">En PDW nos especializamos en Diseño de páginas web. Nuestros expertos poseen la experiencia necesaria para diseñar una página web que se adapte a tus necesidades. En PDW sabemos que es muy importante focalizarse en la experiencia de tus futuros clientes, pensando en ellos desde el día cero. En esta sección podrás visualizar algunos de nuestros trabajos.</p>
+  			</div>
+		</div>
+
+		
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+			  <div class="col">
+			    <div class="card h-100">
+			      <img src="Imagen Feather Sweets Website.jpg" class="card-img-top" alt="Imagen de Feather Sweets Website">
+			      <div class="card-body">
+			        <h5 class="card-title">Feather Sweets Website</h5>
+			        <p class="card-text">Diseño de página web informativa en el área de la Pastelería. Emprendimiento personal de videos educativos en Youtube. Diseño simple utilizando Wordpress.</p>
+			        <a href="https://feathersweets.com/" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card h-100">
+			      <img src="Feathers Sweets Landing Page.jpg" class="card-img-top" alt="Imagen de Feather Sweets Landing Page">
+			      <div class="card-body">
+			        <h5 class="card-title">Landing Page Feather Sweets</h5>
+			        <p class="card-text">Esta es una Landing Page para la inscripción a un curso de Pastelería de Feather Sweets. Emprendimiento personal. Diseño elaborado con Templates de Creative Tim.</p>
+			        <a href="https://merfeathers.github.io/Feather-Sweets-Landing-Page/" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card h-100">
+			      <img src="PDW Website.jpg" class="card-img-top" alt="Imagen de PDW website">
+			      <div class="card-body">
+			        <h5 class="card-title">Proyecto Desarrollo Web Website</h5>
+			        <p class="card-text">Esta es la página web de Proyecto Desarrollo Web, un lugar para diseño páginas web de negocios locales o empresas. Emprendimiento personal. Diseño elaborado con elementos de Bootstrap.</p>
+			        <a href="" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col visually-hidden">
+			    <div class="card h-100">
+			      <img src="..." class="card-img-top" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <a href="" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col visually-hidden">
+			    <div class="card h-100">
+			      <img src="..." class="card-img-top" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <a href="" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col visually-hidden">
+			    <div class="card h-100">
+			      <img src="..." class="card-img-top" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <a href="" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col visually-hidden">
+			    <div class="card h-100">
+			      <img src="..." class="card-img-top" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <a href="" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col visually-hidden">
+			    <div class="card h-100">
+			      <img src="..." class="card-img-top" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <a href="" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col visually-hidden">
+			    <div class="card h-100">
+			      <img src="..." class="card-img-top" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <a href="" class="btn btn-outline-secondary">Visitar</a>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		
+		<div id="text">
+			<h2>Contratación</h2>
+			<p>Contratar los servicios de diseño web que ofrecemos puede ser una excelente opción para aquellos que buscan crear una presencia en línea sólida y atractiva. Ofrecemos un diseño personalizado y único para su sitio web. Nos aseguramos de crear un diseño que se adapte a sus necesidades y refleje la identidad de su marca. Esto puede ayudarlo a destacarse de la competencia y brindar una experiencia de usuario memorable a los visitantes de su sitio. No dude en contactarnos para obtener más información sobre cómo podemos ayudarlo a mejorar su presencia en línea.</p>
+		</div>
+
+	    <a href="Contacto_PDW.html">
+	    	<div class="d-grid gap-2 col-3 mx-auto">
+	        	<button class="btn btn-outline-secondary" type="button">Contactar</button>
+	    	</div>
+	  	</a>
+	  
 
 	</main>
+
 	
 	<footer>
-		<p>Proyecto Desarrollo Web - 43003 Tarragona, España 2023</p>
+		<p><img src="Logo_Para_el_Navegador_web.png" alt="logo PDW" width="30" heigth="30">Proyecto Desarrollo Web - 43003 Tarragona, España 2023</p>
+		Este website utiliza imagenes de <a href="https://www.freepik.es/vector-gratis/fondo-abstracto-azul-formas-geometricas_6166980.htm#query=abstracto%20azul&position=0&from_view=keyword&track=ais">Harryarts</a> en Freepik
 	</footer>
 	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
