@@ -1,16 +1,20 @@
 
 body{
-	background-color: rgba(201, 228, 223, 1.0);
+	background-color: #C9E4DF;
 	color:rgba(77, 99, 97, 1.0);
-	font-family: Yu Gothic UI;
+	font-family: Yu Gothic UI, sans-serif;
 	font-size: 1em;
 	text-align: justify;
-	margin-right:0px;
+
 }
 
 main{
-	margin: 30px;
+	margin-top: 4em;
+	margin-bottom: 4em;
+	margin-left: 6em;
+	margin-right: 6em;
 }
+
 
 h1{
 	color: rgba(26, 98, 174, 1.0);
@@ -30,10 +34,16 @@ nav{
 footer{
 	background-color: rgba(255, 255, 255, 1.0);
 	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 a{
 	text-decoration: none;
+}
+
+p{
+	font-size: 1.1em;
 }
 
 .btn-outline-secondary{
@@ -46,26 +56,37 @@ a{
 }
 
 .card{
+	color: var(#2173A6);
 	-moz-box-shadow:4px 4px 5px #888888;
 	-ms-box-shadow:4px 4px 5px #888888;
 	-webkit-nox-shadow:4px 4px 5px #888888;
 	-o-box-shadow:4px 4px 5px #888888;
 	box-shadow: 4px 4px 5px #888888;
+	border-radius: 20px;
+	position: relative;
+    overflow: hidden;
 }
+
+
 
 .card-img-top2{
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	margin: 0px;
-	width: 80rem;
-	height: 10rem;
+	border-radius: 20px;
+}
+
+
+.card-img-top{
+	border-radius: 20px;
 }
 
 .card-img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .form{
@@ -73,9 +94,11 @@ a{
 }
 
 .card-img-overlay{
+    backdrop-filter: blur(1px);
 	color:rgba(77, 99, 97, 1.0);
 	font-family: Yu Gothic UI;
 	font-weight: bolder;
+	border-radius: 20px;
 }
 
 .media{
@@ -88,8 +111,9 @@ a{
 .media-body{
 	text-align: left;
 	justify-content: center;
-	width: 55rem;
-	border: 2px solid rgba(203,203,203, 1.0);
+	max-width: 55rem;
+	border: 4px solid rgba(203,203,203, 1.0);
+	border-radius: 15px;
 	-moz-box-shadow:4px 4px 5px #888888;
 	-ms-box-shadow:4px 4px 5px #888888;
 	-webkit-nox-shadow:4px 4px 5px #888888;
@@ -118,8 +142,13 @@ a{
 }
 
 #text {
-  background-color: rgba(57,124,156, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(9px);
+  font-size: 1.1em;
   padding: 20px;
+  border-radius: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 #text2{
@@ -150,9 +179,16 @@ a{
 }
 
 .row{
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
+
+.col-md-5{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	margin-top: 0px !important;
+}
+
 
 .g-0{
 	padding-left: 0px;
@@ -178,6 +214,12 @@ a{
 
 form label {
   color: rgba(77, 99, 97, 1.0); 
+  font-size: 1.3em;
+}
+
+.form{
+	max-width: 45em;
+	max height: 45em;
 }
 
 .mb-1{
@@ -212,16 +254,104 @@ form label {
 .img-fluid {
     max-width: 100%;
     height: auto;
+    padding-right: 20px;
+    border-radius: 10px;
 }
 
 .container{
+	background-color: rgba(255, 255, 255, 0.5);
+  	backdrop-filter: blur(9px);
 	padding: 0px;
 }
 
+.decidido{
+	margin margin-bottom: 2em;
+}
 
-/* Para Tamaños de pantalla inferiores a 600px */
+.img-fluid  {
+	    max-width: 100%;
+	    height: auto;
+	    padding: 0;
+	}
 
-@media only screen and (max-width:600px) {
+.fondo{
+	background-color: rgba(31,103,166, 0.3);
+  	backdrop-filter: blur(9px);
+}
+
+.servicios{
+	background-color: rgba(61,84,115, 0.7); 
+	color: #fff; 
+	border-radius: 20px;
+	border: 4px;
+	border-color: #2A3A50;
+}
+
+.portfolio{
+	margin-bottom: 3em !important;
+}
+
+.contacto{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.form-floating{
+	height: 10em auto; 
+	width: 20em auto;
+}
+
+.animation:hover{
+	border: 2px solid rgba(33,115,166,0.8);
+	transform: scale(1.05);
+	transition: transform 1s ease;
+		-webkit-box-shadow:rgba(59,156,216,0.8) 0px 5px 15px, inset rgba(59,156,216,0.15) 0px -10px 20px;
+	    -moz-box-shadow:rgba(59,156,216,0.8) 0px 5px 15px, inset rgba(59,156,216,0.15) 0px -10px 20px;
+	    -o-box-shadow:rgba(59,156,216,0.8) 0px 5px 15px, inset rgba(59,156,216,0.15) 0px -10px 20px;
+	    box-shadow:rgba(59,156,216,0.8) 0px 5px 15px, inset rgba(59,156,216,0.15) 0px -10px 20px;
+}
+
+
+
+
+/* Para Tamaños de pantalla inferiores a 1000px */
+@media only screen and (max-width:1000px) {
+
+	main{
+		margin-top: 2em;
+		margin-bottom: 2em;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+
+	.img-fluid  {
+	    max-width: 100%;
+	    height: auto;
+	    padding: 0;
+	}
+
+		.PDW{
+			padding-right: 20px;
+		}
+
+	.card-title1{
+		font-size: 1.7rem;
+	}
+
+	.card-text1{
+		font-size: 1.1rem;
+		text-align: justify;
+	}
+}
+
+
+
+/* Para Tamaños de pantalla inferiores a 660px */
+
+@media only screen and (max-width:660px) {
     h1{
         font-size: 1em;
         padding: 0;
@@ -254,12 +384,18 @@ form label {
 		height: 900px;
 	}
 
+	main{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	}
 
+	p{
+	font-size: 1em;
+}
 
-
-
-
-
+}
 
 
 
